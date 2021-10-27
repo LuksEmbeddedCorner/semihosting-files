@@ -6,6 +6,8 @@
 //! It should work for all Cortex-M processors.
 //! 
 //! For examples on how to use this crate, check out the examples on github.
+//!
+//! Click [here](https://developer.arm.com/documentation/dui0471/m/what-is-semihosting-/what-is-semihosting-?lang=en) for a reference to the underlying API.
 
 #[macro_use]
 extern crate cortex_m_semihosting;
@@ -210,8 +212,6 @@ impl File {
 impl Drop for File {
     fn drop(&mut self) {
         // Errors are ignored, just like in std::fs::File
-        let result = self.close_internal();
-        dbg!(result).unwrap();
-        let _ = result;
+        let _ = self.close_internal();
     }
 }
