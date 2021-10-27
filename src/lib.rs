@@ -5,7 +5,7 @@
 //! This crate allows to access the files of a host machine while semihosting.
 //! It should work for all Cortex-M processors.
 //! 
-//! For examples on how to use this crate, check out the examples on github.
+//! For examples on how to use this crate, check out the examples on [github](https://github.com/LuksEmbeddedCorner/semihosting-files/tree/master/examples).
 //!
 //! Click [here](https://developer.arm.com/documentation/dui0471/m/what-is-semihosting-/what-is-semihosting-?lang=en) for a reference to the underlying API.
 
