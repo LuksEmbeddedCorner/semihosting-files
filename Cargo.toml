@@ -1,11 +1,12 @@
 [package]
 name = "semihosting-files"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 keywords = ["embedded", "no-std", "semihosting", "cortex-m"]
-categories = ["embedded", "no-std", "filesystem"]
+categories = ["embedded", "no-std", "hardware-support", "filesystem"]
 description = "Access files of the host system during semihosting"
+repository = "https://github.com/LuksEmbeddedCorner/semihosting-files"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
